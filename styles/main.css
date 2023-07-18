@@ -159,8 +159,12 @@ nav {
   border: none;
   cursor: pointer;
 }
+.banner-main-image{
+  margin-right: 5rem;
+}
 
 /* .online games funny videos secton */
+
 .funny-video-title {
   color: #0b0223;
   text-align: center;
