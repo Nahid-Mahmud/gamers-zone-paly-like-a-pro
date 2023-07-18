@@ -159,7 +159,7 @@ nav {
   border: none;
   cursor: pointer;
 }
-.banner-main-image{
+.banner-main-image {
   margin-right: 5rem;
 }
 
@@ -246,7 +246,37 @@ nav {
   cursor: pointer;
   border-radius: 1rem;
 }
-.overlay:hover{
+.overlay:hover {
   background-color: rgba(91, 63, 77, 0.8);
-  border: .5rem solid rgb(224, 79, 79);
+  border: 0.5rem solid rgb(224, 79, 79);
+}
+
+/* online games seciton  */
+.online-games-container {
+  padding: 0 10rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.online-games-first-image {
+  max-width: 30rem;
+  max-height: 50rem;
+}
+.online-games-second-image {
+  max-width: 15rem;
+  max-height: 50rem;
+}
+.online-games-heading {
+  max-width: 20rem;
+}
+.online-games-description {
+  max-width: 28rem;
+}
+
+.online-games-second-image{
+  position: relative;
+  top: 7rem;
+  right: 10rem;
+
+
 }
