@@ -242,10 +242,11 @@ nav {
   height: 25rem;
   position: absolute;
   z-index: 1;
-  transition: 1s;
+  transition: 0.5s;
   cursor: pointer;
   border-radius: 1rem;
 }
 .overlay:hover{
   background-color: rgba(91, 63, 77, 0.8);
+  border: .5rem solid rgb(224, 79, 79);
 }
