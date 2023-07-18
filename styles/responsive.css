@@ -59,6 +59,7 @@
     min-width: 100vw;
     min-height: 43.75rem;
     background-size: 100vw 40rem;
+    padding: 0 10px;
   }
   .banner-main-image {
     width: 100%;
@@ -101,6 +102,7 @@
     min-width: 100vw;
     min-height: 43.75rem;
     background-size: 100vw 40rem;
+    padding: 0 10px;
   }
   .banner-main-image {
     width: 100%;
