@@ -1,9 +1,33 @@
 /* small scren laptops  */
-@media screen and (min-width: 768px) and (max-width: px) {
+@media screen and (min-width: 768px) and (max-width: 1250px) {
   /* nav section  */
 
   nav {
     margin: 1.8rem 5rem;
+    flex-direction: column;
+  }
+  /* main section  */
+  /* banner section  */
+  .banner {
+    flex-direction: column;
+    margin: 0 auto 3rem;
+  }
+  .banner-background-container {
+    min-width: 100vw;
+    min-height: 43.75rem;
+    background-size: 100vw 40rem;
+  }
+  .banner-main-image {
+    width: 100%;
+  }
+  .banner-title {
+    font-size: 2rem;
+  }
+  .banner-logo-text {
+    font-size: 3rem;
+  }
+  .banner-main-image {
+    width: 70%;
   }
 }
 
@@ -45,7 +69,7 @@
   .banner-logo-text {
     font-size: 3rem;
   }
-  .banner-main-image{
+  .banner-main-image {
     width: 70%;
   }
 }
