@@ -6,3 +6,72 @@
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
 }
+
+/* header section starts  */
+
+/* nav section starts  */
+nav {
+  margin: 2.88rem 15rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.nav-logo-image {
+  width: 100%;
+}
+.nav-lists {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.nav-lists a {
+  text-decoration: none;
+  color: #3c354f;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.logo-text {
+  font-size: 2.8125rem;
+  font-weight: 700;
+  color: #0b0223;
+  cursor: pointer;
+}
+.logo-span {
+  background: var(--linear, linear-gradient(0deg, #ff42a5 0%, #ff42a5 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-list-with-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1rem;
+  min-width: 16.375rem;
+  height: 3.5rem;
+  border-radius: 0.5rem;
+  background: rgba(11, 2, 35, 0.1);
+}
+
+.youtube-icon{
+    color: red;
+}
+.tiktok-icon{
+    color: black;
+}
+
+/* nav section ends  */
+
+/* header section ends */
+
+
+/* main section  */
+
+/* banner section  */

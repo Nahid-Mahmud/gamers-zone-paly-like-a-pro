@@ -1,6 +1,53 @@
-/* tablet device codes  */
-@media screen and (min-width: 425px) and (max-width: 1768px) {
+/* small scren laptops  */
+@media screen and (min-width: 768px) and (max-width:  px){
+
+/* nav section  */
+
+nav{
+    margin: 1.8rem 5rem ;
 }
+
+}
+
+
+/* tablet device codes  */
+
+
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  /* header section starts  */
+
+  /* nav section starts  */
+
+  nav {
+    flex-direction: column;
+    margin: 1rem;
+  }
+  .nav-logo-container {
+    margin: 0 auto 1rem;
+  }
+
+  /* nav section ends  */
+
+  /* header section ends */
+}
+
 /* mobile responsive codes */
+
 @media screen and (max-width: 425px) {
+  /* header section starts  */
+
+  /* nav section starts  */
+  nav {
+    flex-direction: column;
+    margin: 1rem;
+  }
+  .nav-lists {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  /* nav section ends  */
+
+  /* header section ends */
 }
