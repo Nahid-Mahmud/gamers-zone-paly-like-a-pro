@@ -76,8 +76,16 @@ nav {
 /* banner section  */
 .banner {
   display: flex;
-  margin: auto 15rem;
-  justify-content: space-between;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+.banner-background-container {
+  background-image: url("../images/Group\ 14.png");
+  width: 56.3125rem;
+  height: 43.75rem;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 .banner-title {
