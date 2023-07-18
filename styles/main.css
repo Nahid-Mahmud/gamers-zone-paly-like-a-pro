@@ -60,18 +60,90 @@ nav {
   background: rgba(11, 2, 35, 0.1);
 }
 
-.youtube-icon{
-    color: red;
+.youtube-icon {
+  color: red;
 }
-.tiktok-icon{
-    color: black;
+.tiktok-icon {
+  color: black;
 }
 
 /* nav section ends  */
 
 /* header section ends */
 
-
 /* main section  */
 
 /* banner section  */
+.banner {
+  display: flex;
+  margin: auto 15rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-title {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.banner-logo-text {
+  font-size: 5.9375rem;
+  font-weight: 800;
+  background: linear-gradient(0deg, #f948b2, #8758f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-list-container {
+  list-style: none;
+  margin: 1.5rem auto 1.5rem;
+}
+.banner-lists-item {
+  color: #534c64;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 1rem auto 1rem;
+}
+.play-icon,
+.download-icon,
+.group-icon {
+  margin-right: 1rem;
+}
+.play-icon,
+.download-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #ff42a5;
+}
+.group-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #0b0223;
+}
+.button {
+  display: flex;
+  gap: 1.5rem;
+}
+.sign-in-button {
+  padding: 1.3125rem 2.5rem;
+  gap: 0.625rem;
+  border: none;
+  border-radius: 3rem;
+  background: #ff42a5;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.go-rogue-button {
+  padding: 1.3125rem 2.5rem;
+  gap: 0.625rem;
+  border-radius: 3rem;
+  background: #4ec5f7;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
