@@ -77,18 +77,20 @@ nav {
 .banner {
   display: flex;
   margin: auto;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .banner-background-container {
   background-image: url("../images/Group\ 14.png");
-  width: 56.3125rem;
-  height: 43.75rem;
+  background-repeat: no-repeat;
+  min-width: 50vw;
+  min-height: 43.75rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .banner-title {
+  text-align: center;
   color: #0b0223;
   font-size: 3rem;
   font-weight: 600;
@@ -100,6 +102,7 @@ nav {
   background: linear-gradient(0deg, #f948b2, #8758f1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-align: center;
 }
 .banner-list-container {
   list-style: none;
