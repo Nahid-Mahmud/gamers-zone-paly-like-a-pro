@@ -189,6 +189,7 @@ nav {
   align-items: center;
   justify-content: space-around;
   margin: 0 10rem 7.5rem 10rem;
+  gap: 1rem;
 }
 
 .funny-cards-items {
@@ -209,8 +210,9 @@ nav {
 .play-icon-text-container {
   text-align: center;
   position: absolute;
-  bottom: 50%;
-  left: 40%;
+  top: 50%;
+  left: 35%;
+  z-index: 2;
 }
 .play-div {
   position: relative;
@@ -227,8 +229,19 @@ nav {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.play-icon-bonus{
-  background: white;
+.play-icon-bonus {
+  color: rgb(0, 0, 0);
   font-size: 2rem;
 }
-
+.overlay {
+  width: 21.375rem;
+  height: 25rem;
+  position: absolute;
+  z-index: 1;
+  transition: 1s;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+.overlay:hover{
+  background-color: rgba(91, 63, 77, 0.8);
+}

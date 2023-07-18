@@ -29,6 +29,17 @@
   .banner-main-image {
     width: 70%;
   }
+    /* online game funny viceo  */
+
+
+    .funny-video-card-container{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 1.4rem;
+    }
+    .funny-section{
+      padding: 0 1rem;
+    }
 }
 
 /* tablet device codes  */
@@ -72,6 +83,15 @@
   }
   .banner-main-image {
     width: 70%;
+  }
+  /* online game funny viceo  */
+
+  .funny-video-card-container {
+    flex-direction: column;
+    gap: 1.4rem;
+  }
+  .funny-section {
+    padding: 0 1rem;
   }
 }
 
@@ -121,5 +141,15 @@
   }
   .go-rogue-button {
     padding: 1rem 1.5rem;
+  }
+
+  /* online game funny viceo  */
+
+  .funny-video-card-container {
+    flex-direction: column;
+    gap: 1.4rem;
+  }
+  .funny-section {
+    padding: 0 1rem;
   }
 }
