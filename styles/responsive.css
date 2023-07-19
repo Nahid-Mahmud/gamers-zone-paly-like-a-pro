@@ -241,8 +241,20 @@
     height: 2.5rem;
   }
 }
-
+/* my phone */
 @media screen and (max-width: 360px) {
+  /* online games  */
+  .online-games-first-image {
+    max-width: 12rem;
+    max-height: 50rem;
+  }
+  .online-games-second-image {
+    position: absolute;
+    max-width: 8rem;
+    max-height: 50rem;
+    top: 50%;
+    left: 70%;
+  }
   /* varity game section  */
   .varity-game-items {
     gap: 0;
