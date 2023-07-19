@@ -44,13 +44,23 @@
   .funny-section {
     padding: 0 1rem;
   }
-  /* onlione play games section  */
-  .online-games-container {
-    flex-direction: column-reverse;
-    justify-content: left;
-    margin: auto;
-    padding: 1rem 1rem;
-  }
+}
+/* onlione play games section  */
+.online-games-container {
+  flex-direction: column-reverse;
+  justify-content: left;
+  margin: auto;
+  padding: 1rem 1rem;
+}
+/* varity game section  */
+.varity-game-items {
+  width: 10rem;
+  height: 5rem;
+  border-radius: 3.125rem;
+  background: #fff;
+}
+.varity-game-name {
+  font-size: 0.8rem;
 }
 
 /* tablet device codes  */

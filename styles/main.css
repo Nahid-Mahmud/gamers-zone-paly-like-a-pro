@@ -282,7 +282,7 @@ nav {
   line-height: 1.875rem;
   margin-bottom: 1.5rem;
 }
-.online-games-image-container{
+.online-games-image-container {
   position: relative;
 }
 
@@ -296,4 +296,38 @@ nav {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+/* varity game section  */
+
+.varity-game-items {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 15rem;
+  height: 5rem;
+  border-radius: 3.125rem;
+  background: #fff;
+}
+
+.varity-game-items:hover {
+  cursor: pointer;
+  border: 2px solid #ff55ae;
+  color: #ff55ae;
+}
+.varity-game-section-container {
+  margin: 5rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  max-width: 90rem;
+  flex-wrap: wrap;
+}
+.varity-game-name {
+  color: #0b0223;
+  font-family: Work Sans;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
