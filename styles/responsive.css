@@ -9,7 +9,7 @@
   /* main section  */
   /* banner section  */
   .banner {
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin: 0 auto 3rem;
   }
   .banner-background-container {
@@ -86,7 +86,7 @@
   /* main section  */
   /* banner section  */
   .banner {
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin: 0 auto 3rem;
   }
   .banner-background-container {
@@ -174,7 +174,7 @@
   /* main section  */
   /* banner section  */
   .banner {
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin: 0 auto 3rem;
   }
   .banner-background-container {
@@ -289,6 +289,9 @@
 /* my phone  responsive*/
 
 @media screen and (max-width: 360px) {
+  .banner {
+    flex-direction: column-reverse;
+  }
   /* online games  */
   .online-games-first-image {
     max-width: 12rem;
