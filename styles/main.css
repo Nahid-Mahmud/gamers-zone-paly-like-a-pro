@@ -333,3 +333,62 @@ nav {
 }
 
 /* footer section  */
+
+.footer-container {
+  color: white;
+  background: #0b0223;
+  min-height: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer-logo-container {
+  display: flex;
+  gap: 1.5rem;
+}
+.story-to-my-account-item-container {
+  margin: 3rem auto;
+  display: flex;
+  gap: 3.75rem;
+}
+.story-to-my-account {
+  color: #fff;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+.gamer-amer-text {
+  font-family: Work Sans;
+  font-size: 2.8125rem;
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+}
+.footer-icons-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-icons-container {
+  display: flex;
+  gap: 2.5rem;
+  font-size: 2.5rem;
+}
+.term-privacy-container {
+  display: flex;
+  gap: 3.75rem;
+  margin: 2.5rem auto 1.5rem;
+  cursor: pointer;
+}
+
+.footer-text-botom-section {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
