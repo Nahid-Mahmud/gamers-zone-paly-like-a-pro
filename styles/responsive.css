@@ -134,6 +134,21 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 0;
   }
+  /* footer section  */
+
+  .footer-container {
+    min-height: 30rem;
+  }
+
+  .footer-logo-container {
+    margin-bottom: 1rem;
+  }
+
+  .story-to-my-account-item-container {
+    gap: 2.5rem;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+  }
 }
 
 /* mobile responsive codes */
@@ -239,8 +254,31 @@
     width: 2.5rem;
     height: 2.5rem;
   }
+  /* footer section  */
+
+  .footer-container {
+    min-height: 30rem;
+  }
+
+  .footer-logo-container {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+
+  .story-to-my-account-item-container {
+    gap: 3rem;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+  }
+  .footer-icons-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 1rem;
+  }
 }
-/* my phone */
+
+/* my phone  responsive*/
+
 @media screen and (max-width: 360px) {
   /* online games  */
   .online-games-first-image {
@@ -273,5 +311,26 @@
   .varity-game-img {
     width: 2.5rem;
     height: 2.5rem;
+  }
+  /* footer section  */
+
+  .footer-container {
+    min-height: 30rem;
+  }
+
+  .footer-logo-container {
+    margin-bottom: 1rem;
+  }
+
+  .story-to-my-account-item-container {
+    gap: 2rem;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+  }
+
+  .footer-icons-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 1rem;
   }
 }
