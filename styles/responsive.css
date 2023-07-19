@@ -221,8 +221,9 @@
     left: 70%;
   }
   /* varity game section  */
-  .varity-game-items{
+  .varity-game-items {
     gap: 0;
+    height: 4rem;
     word-wrap: break-word;
   }
 
@@ -232,7 +233,11 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 0rem;
   }
-  .varity-game-name{
-    font-size: .9rem;
+  .varity-game-name {
+    font-size: 0.9rem;
+  }
+  .varity-game-img {
+    width: 2.5rem;
+    height: 2.5rem;
   }
 }
