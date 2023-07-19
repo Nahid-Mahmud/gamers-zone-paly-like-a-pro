@@ -149,11 +149,14 @@
     justify-content: space-around;
     margin-bottom: 1rem;
   }
+  .term-privacy-container {
+    gap: 3rem;
+  }
 }
 
 /* mobile responsive codes */
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 360px) and (max-width: 425px) {
   /* header section starts  */
 
   /* nav section starts  */
@@ -238,7 +241,7 @@
   .varity-game-items {
     gap: 0;
     height: 4rem;
-    width: 6rem;
+    width: 6.5rem;
     word-wrap: break-word;
   }
 
@@ -274,6 +277,12 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-bottom: 1rem;
+  }
+  .term-privacy-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2.5rem;
   }
 }
 
@@ -332,5 +341,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-bottom: 1rem;
+  }
+  .term-privacy-container {
+    gap: 7px;
   }
 }
