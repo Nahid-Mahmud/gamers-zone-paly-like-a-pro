@@ -53,6 +53,9 @@
   padding: 1rem 1rem;
 }
 /* varity game section  */
+.varity-game-section-container {
+  max-width: 1024px;
+}
 .varity-game-items {
   width: 10rem;
   height: 5rem;
@@ -125,6 +128,12 @@
     justify-content: left;
     margin: auto;
     padding: 1rem 1rem;
+  }
+
+  .varity-game-section-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
   }
 }
 
@@ -210,5 +219,20 @@
     max-height: 50rem;
     top: 50%;
     left: 70%;
+  }
+  /* varity game section  */
+  .varity-game-items{
+    gap: 0;
+    word-wrap: break-word;
+  }
+
+  .varity-game-section-container {
+    display: grid;
+    margin: 5rem 0 5rem 3rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0rem;
+  }
+  .varity-game-name{
+    font-size: .9rem;
   }
 }
