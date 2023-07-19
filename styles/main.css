@@ -307,11 +307,15 @@ nav {
   height: 5rem;
   border-radius: 3.125rem;
   background: #fff;
+  transition: .5s;
 }
 
 .varity-game-items:hover {
   cursor: pointer;
   border: 2px solid #ff55ae;
+  color: #ff55ae;
+}
+.varity-game-items:hover .varity-game-name {
   color: #ff55ae;
 }
 .varity-game-section-container {
@@ -330,6 +334,7 @@ nav {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  transition: .5s;
 }
 
 /* footer section  */
@@ -403,6 +408,6 @@ nav {
   color: rgba(255, 255, 255, 0.6);
   font-size: 1rem;
   font-weight: 500;
-  word-wrap:break-word ;
+  word-wrap: break-word;
   text-align: center;
 }
