@@ -156,7 +156,7 @@
 
 /* mobile responsive codes */
 
-@media screen and (min-width: 360px) and (max-width: 425px) {
+@media screen and (min-width: 375px) and (max-width: 425px) {
   /* header section starts  */
 
   /* nav section starts  */
@@ -288,7 +288,7 @@
 
 /*  375 px  */
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 360px) and (max-width: 375px)  {
   /* varity game section  */
   .varity-game-items {
     gap: 0;
