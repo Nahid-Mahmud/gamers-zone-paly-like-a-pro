@@ -156,7 +156,7 @@
 
 /* mobile responsive codes */
 
-@media screen and (min-width: 375px) and (max-width: 425px) {
+@media screen and (min-width: 360px) and (max-width: 425px) {
   /* header section starts  */
 
   /* nav section starts  */
@@ -287,30 +287,13 @@
 }
 
 /*  375 px  */
-
-@media screen and (min-width: 360px) and (max-width: 375px)  {
-  /* varity game section  */
-  .varity-game-items {
-    gap: 0;
-    height: 4rem;
-    width: 6rem;
-    word-wrap: break-word;
-  }
-
+@media screen and (max-width: 375px) {
   .varity-game-section-container {
-    display: flex;
-    max-width: 100vw;
-    justify-content: space-around;
-  }
-  .varity-game-name {
-    font-size: 0.8rem;
-  }
-  .varity-game-img {
-    width: 2.5rem;
-    height: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
   }
 }
-
 /* my phone  responsive*/
 
 @media screen and (max-width: 360px) {
