@@ -14,7 +14,7 @@
   }
   .banner-background-container {
     min-width: 100vw;
-    min-height: 43.75rem;
+    min-height: 40.75rem;
     background-size: 100vw 40rem;
   }
   .banner-main-image {
@@ -50,6 +50,10 @@
     justify-content: left;
     margin: auto;
     padding: 1rem 1rem;
+  }
+  .online-games-heading,
+  .online-games-description {
+    text-align: center;
   }
   /* varity game section  */
   .varity-game-section-container {
@@ -113,6 +117,10 @@
   }
 
   /* online game funny viceo  */
+  /* funny video secton  */
+  .funny-video-title {
+    margin: 0 auto 1rem;
+  }
 
   .funny-video-card-container {
     flex-direction: column;
@@ -133,6 +141,10 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 0;
+  }
+  .online-games-heading,
+  .online-games-description {
+    text-align: center;
   }
   /* footer section  */
 
@@ -206,7 +218,7 @@
     padding: 1rem;
   }
 
-  /* online game funny viceo  */
+  /* online game funny video  */
 
   .funny-video-card-container {
     flex-direction: column;
@@ -214,6 +226,9 @@
   }
   .funny-section {
     padding: 0 1rem;
+  }
+  .funny-video-title {
+    margin: 0 auto 1rem;
   }
 
   /* onlione play games section  */
@@ -236,6 +251,10 @@
     max-height: 50rem;
     top: 50%;
     left: 70%;
+  }
+  .online-games-heading,
+  .online-games-description {
+    text-align: center;
   }
   /* varity game section  */
   .varity-game-items {
@@ -300,6 +319,11 @@
   .banner {
     flex-direction: column-reverse;
   }
+
+  /* funny video secton  */
+  .funny-video-title {
+    margin: 0 auto 1rem;
+  }
   /* online games  */
   .online-games-first-image {
     max-width: 12rem;
@@ -311,6 +335,10 @@
     max-height: 50rem;
     top: 50%;
     left: 70%;
+  }
+  .online-games-heading,
+  .online-games-description {
+    text-align: center;
   }
   /* varity game section  */
   .varity-game-items {
